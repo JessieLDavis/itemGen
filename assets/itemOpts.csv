@@ -1,34 +1,166 @@
-itemName,materials,size,purpose,tags,objectType,modelLink,screenShotLink,relatedItems
-apron,"[('animal', ['hide']), ('vegetal', ['fibers', 'paper', 'reeds']), ('mineral', ['synthetic'])]",['any'],Often used to prevent unwanted splashing.,"['medical equipment', 'protective equipment', 'investigative tool', 'dining tool']",Apparel,,,[]
-belt,"[('animal', ['hide', 'shell', 'ivory', 'bone']), ('composite', ['hide', 'metal']), ('human remains', ['artifactual']), ('mineral', ['ceramic', 'metal', 'synthetic']), ('vegetal', ['fibers', 'reeds', 'wood'])]","['small', 'medium']","Tool used in both technology and apparel to provide tension. In some cultures, unconventionally large versions were used as a reward for prowess on the battlefield.","['combat equipment', 'storage item', 'cultural item', 'decorative item']",Apparel,,,[]
-bracelet,"[('animal', ['bone', 'coral', 'feather', 'hair', 'hide', 'ivory', 'shell']), ('composite', ['fibers', 'ceramic']), ('mineral', ['ceramic', 'glass', 'metal', 'stone', 'synthetic']), ('vegetal', ['fibers', 'paper', 'wood'])]",['small'],An apparel item that humans often placed on their upper extremities for decorative purposes.,"['protective equipment', 'cultural item', 'decorative item', 'entertainment device']",Apparel,,,[]
-blouse / shirt,"[('animal', ['feather', 'hair', 'hide']), ('composite', ['synthetic', 'fibers']), ('mineral', ['synthetic']), ('vegetal', ['fibers', 'paper', 'reeds', 'wood'])]","['small', 'medium']",An apparel item that humans wore for protection from the elements. Formed from 4 holes.,"['protective equipment', 'cultural item', 'decorative item', 'communication device']",Apparel,,,[]
-"bow, hair","[('', [''])]",['small'],A decorative item formed by combining loops and knots. Often used to secure and decorate hair.,"['trapping device', 'cultural item', 'communication device', 'trapping device']",Apparel,,,[]
-"hat, top","[('vegetal', ['other', 'others']), ('mineral', ['synthetic']), ('animal', ['other'])]",['small'],An apparel item often used to protect the head. Often associated with formal occasions.,"['protective equipment', 'decorative item', 'cultural item', 'entertainment device']",Apparel,,,[]
-"bow, tie","[('vegetal', ['other', 'fibers']), ('mineral', ['synthetic']), ('animal', ['other'])]",['small'],An apparel item often used to secure the collar. Formed from loops and knots and often associated with formal occasions.,"['cultural item', 'entertainment device', 'trapping device', 'decorative item']",Apparel,,,[]
-axe,"[('animal', ['antler', 'bone', 'ivory', 'shell']), ('composite', ['wood', 'metal']), ('mineral', ['ceramic', 'metal', 'synthetic', 'stone'])]","['small', 'medium']",Versatile tool used in combat and for resource gathering,"['combat equipment', 'slashing item', 'cutting tool', 'maker tool']",Tool,,,[]
-arrow,"[('animal', ['bone', 'coral']), ('composite', ['wood', 'feather', 'stone']), ('mineral', ['ceramic', 'glass', 'metal', 'stone', 'synthetic'])]",['small'],Often used as a combat tool or to illustrate a point.,"['combat equipment', 'communication device', 'stabbing item', 'cultural item']",Tool,,,[]
-awl,"[('animal', ['horn', 'ivory', 'quill']), ('composite', ['metal', 'wood']), ('mineral', ['metal']), ('vegetal', ['wood'])]",['small'],Tool used to put holes in fabric.,"['cultural item', 'stabbing item', 'maker tool', 'textile equipment']",Tool,,,[]
-bag,"[('animal', ['hair', 'hide', 'shell']), ('composite', ['hide', 'metal', 'ceramic', 'synthetic']), ('mineral', ['synthetic']), ('vegetal', ['fibers', 'paper'])]","['small', 'medium']",Versatile storage device. Occasionaly used to denote social standing.,"['decorative item', 'transportation device', 'cultural item', 'storage item']",Tool,,,[]
-ball,"[('animal', ['hide']), ('composite', ['fibers', 'synthetic', 'wood']), ('mineral', ['ceramic', 'glass', 'stone', 'synthetic']), ('vegetal', ['fibers', 'paper', 'wood']), ('unidentified', ['unidentified'])]",['any'],Spherical object with many cultural and technological applications.,"['entertainment device', 'cultural item', 'decorative item', 'maker tool']",Tool,,,[]
-basket,"[('vegetal', ['fibers', 'reeds', 'wood']), ('mineral', ['synthetic'])]","['small', 'medium']",Storage tool for light cargo. Often decorative.,"['transportation device', 'cultural item', 'storage item', 'decorative item']",Tool,,,[]
-"band, rubber","[('mineral', ['synthetic', 'other']), ('vegetal', ['other', 'wood'])]",['small'],Useful tool for securing bundles of small items.,"['transportation device', 'entertainment device', 'storage item', 'maker tool']",Tool,,,[]
-beaker,"[('mineral', ['glass', 'synthetic'])]",['small'],Storage item often used by human researchers.,"['medical equipment', 'cultural item', 'storage item', 'investigative tool']",Tool,,,[]
-bowl,"[('animal', ['bone', 'ivory', 'shell', 'hide']), ('mineral', ['ceramic', 'glass', 'metal', 'stone', 'synthetic']), ('vegetal', ['paper', 'fibers', 'wood'])]",['any'],"Versatile item often used for dining, storage, and decoration.","['cultural item', 'storage item', 'decorative item', 'dining tool']",Tool,,,[]
-caltrops,"[('animal', ['bone', 'quill', 'shell']), ('mineral', ['ceramic', 'glass', 'metal', 'stone', 'synthetic'])]",['small'],A weapon thrown on the ground to deter persuers or ambush travelers. Often scattered on roadways.,"['combat equipment', 'protective equipment', 'stabbing item', 'trapping device']",Tool,,,[]
-"caltrops, LEGO","[('mineral', ['synthetic'])]",['small'],A toy version of a weapon thrown on the ground to deter persuers or ambush travelers. Often scattered in resting locations or assembled into unique shapes. Effectiveness of this device's role in heightening pain tolerance and perception is unknown,"['combat equipment', 'protective equipment', 'cultural item', 'maker tool']",Tool,,,[]
-"bow, weapon","[('composite', ['hide', 'wood', 'fibers']), 'mineral']","['small', 'medium']",A weapon used to throw projectiles far distances. Two handed device.,"['combat equipment', 'launching tool', 'cultural item', 'entertainment device']",Tool,,,[]
-box,"[('composite', ['fibers', 'synthetic']), ('vegetal', ['fibers', 'paper', 'wood']), ('mineral', ['ceramic', 'glass', 'metal', 'synthetic'])]",['any'],A storage tool usually comprised of 6 sides when closed. May open and close through the use of flaps or a removable side.,"['storage item', 'transportation device', 'cultural item', 'trapping device']",Tool,,,[]
-"box, decorative","[('composite', ['fibers', 'synthetic', 'paper']), ('vegetal', ['fibers', 'paper', 'wood'])]",['any'],A storage tool usually comprised of 6 sides when closed. May open and close through the use of flaps or a removable side. Actual dimensions and contents are often hidden to create an entertainment device.,"['storage item', 'cultural item', 'entertainment device', 'decorative item']",Tool,,,[]
-antler artifact,"[('animal', ['antler'])]",['any'],Decorative item popular with human resource gatherers. Wall mounted object.,"['communication device', 'cultural item', 'combat equipment', 'decorative item']",Product,,,[]
-bead,"[('animal', ['bone', 'coral', 'hide', 'horn', 'ivory', 'shell']), ('human remains', ['artifactual']), ('mineral', ['ceramic', 'glass', 'metal', 'stone', 'synthetic']), ('vegetal', ['fibers', 'reeds', 'wood'])]",['small'],Decorative item often used when creating apparel. Generally stored in multiples.,"['textile equipment', 'cultural item', 'decorative item', 'maker tool']",Product,,,[]
-bell,"[('mineral', ['metal'])]",['any'],Instrument and cultural item often used to decorate apparel.,"['decorative item', 'entertainment device', 'cultural item', 'maker tool']",Product,,,[]
-"disk, coin","[('mineral', ['metal'])]",['small'],A highly significant - but common - cultural disk used in commerce.,"['communication device', 'cultural item', 'transportation device', 'protective equipment']",Product,,,[]
-blanket,"[('animal', ['hair', 'hide', 'quill', 'shell', 'feather']), ('composite', ['fibers', 'hide']), ('mineral', ['synthetic']), ('vegetal', ['fibers', 'paper', 'reeds', 'other'])]",['any'],Cultural item usually used for warmth and decoration. Often found in locations set apart for resting.,"['protective equipment', 'cultural item', 'storage item', 'decorative item']",Product,,,[]
-"bow, decorative","[('animal', ['hide']), ('composite', ['metal', 'fibers', 'synthetic']), ('mineral', ['synthetic']), ('vegetal', ['fibers', 'paper', 'reeds', 'wood'])]",['any'],A decorative item formed by combining loops and knots. Often used to secure and seal storage containers,"['textile equipment', 'stabbing item', 'decorative item', 'maker tool']",Product,,,[]
-"chest, tooth fairy","[('composite', ['synthetic', 'human remains', 'bone'])]",['small'],A very small decorative storage device used to ceremonially store small bones shed by prepubecient humans during the growth stage.,"['cultural item', 'storage item', 'transportation device', 'trapping device']",Product,,,[]
-chest,"[('vegetal', ['wood']), ('composite', ['metal', 'wood', 'fibers'])]",['any'],A storage device popularized in the pre-flight era of humanity. Smaller versions were later adapted to be used for travel.,"['storage item', 'cultural item', 'decorative item', 'transportation device']",Product,,,[]
-"disk, compact (CD)","[('mineral', ['metal', 'synthetic'])]",['small'],A round storage device for digital information. Often used for preserving music.,"['recording equipment', 'communication device', 'storage item', 'entertainment device']",Product,,,[]
-"disk, floppy","[('mineral', ['synthetic', 'metal'])]",['small'],A quadrilateral storage device for digital information. Originally used for storing executable code. Culturally used as a save icon.,"['recording equipment', 'transportation device', 'storage item', 'investigative tool']",Product,,,[]
-"cassette, video","[('mineral', ['synthetic', 'metal'])]",['small'],A quadrilateral storage device for digital information. Often used for recording visual information.,"['recording equipment', 'transportation device', 'storage item', 'cultural item']",Product,,,[]
-"cassette, compact","[('mineral', ['synthetic', 'metal'])]",['small'],A quadrilateral storage device for digital information. Often used for recording audio information.,"['recording equipment', 'storage item', 'trapping device', 'cultural item']",Product,,,[]
+itemName,itemContent,modelLink,screenShotLink
+apron,"PURPOSE: Often used to prevent unwanted splashing.
+SIZE(S): ['any']
+TAGS: ['medical equipment', 'protective equipment', 'investigative tool', 'dining tool']
+OBJECT TYPE: Apparel
+RELATED ITEMS: []",,
+belt,"PURPOSE: Tool used in both technology and apparel to provide tension. In some cultures, unconventionally large versions were used as a reward for prowess on the battlefield.
+SIZE(S): ['small', 'medium']
+TAGS: ['combat equipment', 'storage item', 'cultural item', 'decorative item']
+OBJECT TYPE: Apparel
+RELATED ITEMS: []",,
+bracelet,"PURPOSE: An apparel item that humans often placed on their upper extremities for decorative purposes.
+SIZE(S): ['small']
+TAGS: ['protective equipment', 'cultural item', 'decorative item', 'entertainment device']
+OBJECT TYPE: Apparel
+RELATED ITEMS: []",,
+blouse / shirt,"PURPOSE: An apparel item that humans wore for protection from the elements. Formed from 4 holes.
+SIZE(S): ['small', 'medium']
+TAGS: ['protective equipment', 'cultural item', 'decorative item', 'communication device']
+OBJECT TYPE: Apparel
+RELATED ITEMS: []",,
+"bow, hair","PURPOSE: A decorative item formed by combining loops and knots. Often used to secure and decorate hair.
+SIZE(S): ['small']
+TAGS: ['trapping device', 'cultural item', 'communication device', 'trapping device']
+OBJECT TYPE: Apparel
+RELATED ITEMS: []",,
+"hat, top","PURPOSE: An apparel item often used to protect the head. Often associated with formal occasions.
+SIZE(S): ['small']
+TAGS: ['protective equipment', 'decorative item', 'cultural item', 'entertainment device']
+OBJECT TYPE: Apparel
+RELATED ITEMS: []",,
+"bow, tie","PURPOSE: An apparel item often used to secure the collar. Formed from loops and knots and often associated with formal occasions.
+SIZE(S): ['small']
+TAGS: ['cultural item', 'entertainment device', 'trapping device', 'decorative item']
+OBJECT TYPE: Apparel
+RELATED ITEMS: []",,
+axe,"PURPOSE: Versatile tool used in combat and for resource gathering
+SIZE(S): ['small', 'medium']
+TAGS: ['combat equipment', 'slashing item', 'cutting tool', 'maker tool']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+arrow,"PURPOSE: Often used as a combat tool or to illustrate a point.
+SIZE(S): ['small']
+TAGS: ['combat equipment', 'communication device', 'stabbing item', 'cultural item']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+awl,"PURPOSE: Tool used to put holes in fabric.
+SIZE(S): ['small']
+TAGS: ['cultural item', 'stabbing item', 'maker tool', 'textile equipment']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+bag,"PURPOSE: Versatile storage device. Occasionaly used to denote social standing.
+SIZE(S): ['small', 'medium']
+TAGS: ['decorative item', 'transportation device', 'cultural item', 'storage item']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+ball,"PURPOSE: Spherical object with many cultural and technological applications.
+SIZE(S): ['any']
+TAGS: ['entertainment device', 'cultural item', 'decorative item', 'maker tool']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+basket,"PURPOSE: Storage tool for light cargo. Often decorative.
+SIZE(S): ['small', 'medium']
+TAGS: ['transportation device', 'cultural item', 'storage item', 'decorative item']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+"band, rubber","PURPOSE: Useful tool for securing bundles of small items.
+SIZE(S): ['small']
+TAGS: ['transportation device', 'entertainment device', 'storage item', 'maker tool']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+beaker,"PURPOSE: Storage item often used by human researchers.
+SIZE(S): ['small']
+TAGS: ['medical equipment', 'cultural item', 'storage item', 'investigative tool']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+bowl,"PURPOSE: Versatile item often used for dining, storage, and decoration.
+SIZE(S): ['any']
+TAGS: ['cultural item', 'storage item', 'decorative item', 'dining tool']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+caltrops,"PURPOSE: A weapon thrown on the ground to deter persuers or ambush travelers. Often scattered on roadways.
+SIZE(S): ['small']
+TAGS: ['combat equipment', 'protective equipment', 'stabbing item', 'trapping device']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+"caltrops, LEGO","PURPOSE: A toy version of a weapon thrown on the ground to deter persuers or ambush travelers. Often scattered in resting locations or assembled into unique shapes. Effectiveness of this device's role in heightening pain tolerance and perception is unknown
+SIZE(S): ['small']
+TAGS: ['combat equipment', 'protective equipment', 'cultural item', 'maker tool']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+"bow, weapon","PURPOSE: A weapon used to throw projectiles far distances. Two handed device.
+SIZE(S): ['small', 'medium']
+TAGS: ['combat equipment', 'launching tool', 'cultural item', 'entertainment device']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+box,"PURPOSE: A storage tool usually comprised of 6 sides when closed. May open and close through the use of flaps or a removable side.
+SIZE(S): ['any']
+TAGS: ['storage item', 'transportation device', 'cultural item', 'trapping device']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+"box, decorative","PURPOSE: A storage tool usually comprised of 6 sides when closed. May open and close through the use of flaps or a removable side. Actual dimensions and contents are often hidden to create an entertainment device.
+SIZE(S): ['any']
+TAGS: ['storage item', 'cultural item', 'entertainment device', 'decorative item']
+OBJECT TYPE: Tool
+RELATED ITEMS: []",,
+antler artifact,"PURPOSE: Decorative item popular with human resource gatherers. Wall mounted object.
+SIZE(S): ['any']
+TAGS: ['communication device', 'cultural item', 'combat equipment', 'decorative item']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+bead,"PURPOSE: Decorative item often used when creating apparel. Generally stored in multiples.
+SIZE(S): ['small']
+TAGS: ['textile equipment', 'cultural item', 'decorative item', 'maker tool']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+bell,"PURPOSE: Instrument and cultural item often used to decorate apparel.
+SIZE(S): ['any']
+TAGS: ['decorative item', 'entertainment device', 'cultural item', 'maker tool']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+"disk, coin","PURPOSE: A highly significant - but common - cultural disk used in commerce.
+SIZE(S): ['small']
+TAGS: ['communication device', 'cultural item', 'transportation device', 'protective equipment']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+blanket,"PURPOSE: Cultural item usually used for warmth and decoration. Often found in locations set apart for resting.
+SIZE(S): ['any']
+TAGS: ['protective equipment', 'cultural item', 'storage item', 'decorative item']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+"bow, decorative","PURPOSE: A decorative item formed by combining loops and knots. Often used to secure and seal storage containers
+SIZE(S): ['any']
+TAGS: ['textile equipment', 'stabbing item', 'decorative item', 'maker tool']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+"chest, tooth fairy","PURPOSE: A very small decorative storage device used to ceremonially store small bones shed by prepubecient humans during the growth stage.
+SIZE(S): ['small']
+TAGS: ['cultural item', 'storage item', 'transportation device', 'trapping device']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+chest,"PURPOSE: A storage device popularized in the pre-flight era of humanity. Smaller versions were later adapted to be used for travel.
+SIZE(S): ['any']
+TAGS: ['storage item', 'cultural item', 'decorative item', 'transportation device']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+"disk, compact (CD)","PURPOSE: A round storage device for digital information. Often used for preserving music.
+SIZE(S): ['small']
+TAGS: ['recording equipment', 'communication device', 'storage item', 'entertainment device']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+"disk, floppy","PURPOSE: A quadrilateral storage device for digital information. Originally used for storing executable code. Culturally used as a save icon.
+SIZE(S): ['small']
+TAGS: ['recording equipment', 'transportation device', 'storage item', 'investigative tool']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+"cassette, video","PURPOSE: A quadrilateral storage device for digital information. Often used for recording visual information.
+SIZE(S): ['small']
+TAGS: ['recording equipment', 'transportation device', 'storage item', 'cultural item']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
+"cassette, compact","PURPOSE: A quadrilateral storage device for digital information. Often used for recording audio information.
+SIZE(S): ['small']
+TAGS: ['recording equipment', 'storage item', 'trapping device', 'cultural item']
+OBJECT TYPE: Product
+RELATED ITEMS: []",,
