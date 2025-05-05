@@ -43,6 +43,7 @@ class SpawnObj():
 # hr: Mummified (includes fortuitous desiccation) 
 #Osteological human bones
 #Ceramic is fired. Clay, Mud, and Soil are unfired.
+#Add "see also"
 materialList = {"animal":["antler","bone","coral","feather","hair","hide","horn","ivory","other","quill","shell"],
                 "composite":["antler","artifactual","bone","ceramic","clay","coral","feather","fibers","glass","hair","hide","horn","ivory","metal","mud","mummified","osteological","other animal materials","other human remains","other mineral materials","other plant materials","paper","quill","reeds","shell","soil","stone","synthetic","unidentified","unknown","wood"],
                 "human remains":["artifactual","mummified","osteological","other"],
@@ -52,16 +53,16 @@ materialList = {"animal":["antler","bone","coral","feather","hair","hide","horn"
 # Abrader = sander
 category = ["apparel","tool","product"]
 tagOpts = [
-   ["protective equipment","medical equipment","combat equipment","textile equipment"],
-   ["entertainment device","communication device","illumination device","transportation device","musical device"],
+   ["protective equipment","medical equipment","combat equipment","textile equipment","recording equipment"],
+   ["entertainment device","communication device","illumination device","transportation device","musical device","trapping device"],
    ["cultural item","stabbing item","scooping item","storage item","slashing item","decorative item"],
-   ["dining tool","cutting tool","maker tool","prediction tool","investigative tool"]]
+   ["dining tool","cutting tool","maker tool","prediction tool","investigative tool","launching tool"]]
 objectHeader = ["category","name","materials","size","tags","purpose"]
 sizeOpts = ["any","small","medium","large"]
 # objectNames = []
 apparelObjects = {
     "apron":{"materials":[("animal",["hide"]),("vegetal",["fibers","paper","reeds"]),("mineral",["synthetic"])],
-             "size":[sizeOpts(0)],
+             "size":[sizeOpts[0]],
              "purpose":"Often used to prevent unwanted splashing.",
              "tags":[tagOpts[0][1],tagOpts[0][0],tagOpts[3][4],tagOpts[3][0]]},
     "belt":{"materials":[("animal",["hide","shell","ivory","bone"]),("composite",["hide","metal"]),("human remains",["artifactual"]),("mineral",["ceramic","metal","synthetic"]),("vegetal",["fibers","reeds","wood"])],
@@ -71,12 +72,27 @@ apparelObjects = {
     "bracelet":{"materials":[("animal",["bone","coral","feather","hair","hide","ivory","shell"]),("composite",["fibers","ceramic"]),("mineral",["ceramic","glass","metal","stone","synthetic"]),("vegetal",["fibers","paper","wood"])],
             "size":[sizeOpts[1]],
             "purpose":"An apparel item that humans often placed on their upper extremities for decorative purposes.",
-            "tags":[tagOpts[0][0],tagOpts[2][0],tagOpts[2][5],tagOpts[1][0]]}
-
+            "tags":[tagOpts[0][0],tagOpts[2][0],tagOpts[2][5],tagOpts[1][0]]},
+        "blouse / shirt":{"materials":[("animal",["feather","hair","hide"]),("composite",["synthetic","fibers"]),("mineral",["synthetic"]),("vegetal",["fibers","paper","reeds","wood"])],
+            "size":[sizeOpts[1],sizeOpts[2]],
+            "purpose":"An apparel item that humans wore for protection from the elements. Formed from 4 holes.",
+            "tags":[tagOpts[0][0],tagOpts[2][0],tagOpts[2][5],tagOpts[1][1]]},
+        "bow, hair":{"materials":[("",[""])],
+            "size":[sizeOpts[1]],
+            "purpose":"A decorative item formed by combining loops and knots. Often used to secure and decorate hair.",
+            "tags":[tagOpts[1][5],tagOpts[2][0],tagOpts[1][1],tagOpts[1][5]]},
+        "hat, top":{"materials":[("vegetal",["other","others"]),("mineral",["synthetic"]),("animal",["other"])],
+                "size":[sizeOpts[1]],
+                "purpose":"An apparel item often used to protect the head. Often associated with formal occasions.",
+                "tags":[tagOpts[0][0],tagOpts[2][5],tagOpts[2][0],tagOpts[1][0]]},
+        "bow, tie":{"materials":[("vegetal",["other","fibers"]),("mineral",["synthetic"]),("animal",["other"])],
+                "size":[sizeOpts[1]],
+                "purpose":"An apparel item often used to secure the collar. Formed from loops and knots and often associated with formal occasions.",
+                "tags":[tagOpts[2][0],tagOpts[1][0],tagOpts[1][5],tagOpts[2][5]]}
 } #ceramic belt = sander?; purpose ref = WWE
 toolObjects = {
    "axe":{"materials":[("animal",["antler","bone","ivory","shell"]),("composite",["wood","metal"]),("mineral",["ceramic","metal","synthetic","stone"])],
-          "size":[sizeOpts(1),sizeOpts(2)],
+          "size":[sizeOpts[1],sizeOpts[2]],
           "purpose":"Versatile tool used in combat and for resource gathering",
           "tags":[tagOpts[0][2],tagOpts[2][4],tagOpts[3][1],tagOpts[3][2]]},
     "arrow":{"materials":[("animal",["bone","coral"]),("composite",["wood","feather","stone"]),("mineral",["ceramic","glass","metal","stone","synthetic"])],
@@ -111,7 +127,26 @@ toolObjects = {
             "size":[sizeOpts[0]],
             "purpose":"Versatile item often used for dining, storage, and decoration.",
             "tags":[tagOpts[2][0],tagOpts[2][3],tagOpts[2][5],tagOpts[3][0]]},
-
+        "caltrops":{"materials":[("animal",["bone","quill","shell"]),("mineral",["ceramic","glass","metal","stone","synthetic"])],
+            "size":[sizeOpts[1]],
+            "purpose":"A weapon thrown on the ground to deter persuers or ambush travelers. Often scattered on roadways.",
+            "tags":[tagOpts[0][2],tagOpts[0][0],tagOpts[2][1],tagOpts[1][5]]},
+        "caltrops, LEGO":{"materials":[("mineral",["synthetic"])],
+            "size":[sizeOpts[1]],
+            "purpose":"A toy version of a weapon thrown on the ground to deter persuers or ambush travelers. Often scattered in resting locations or assembled into unique shapes. Effectiveness of this device's role in heightening pain tolerance and perception is unknown",
+            "tags":[tagOpts[0][2],tagOpts[0][0],tagOpts[2][0],tagOpts[3][2]]},
+        "bow, weapon":{"materials":[("composite",["hide","wood","fibers"]),("mineral")],
+            "size":[sizeOpts[1],sizeOpts[2]],
+            "purpose":"A weapon used to throw projectiles far distances. Two handed device.",
+            "tags":[tagOpts[0][2],tagOpts[3][5],tagOpts[2][0],tagOpts[1][0]]},
+        "box":{"materials":[("composite",["fibers","synthetic"]),("vegetal",["fibers","paper","wood"]),("mineral",["ceramic","glass","metal","synthetic"])],
+            "size":[sizeOpts[0]],
+            "purpose":"A storage tool usually comprised of 6 sides when closed. May open and close through the use of flaps or a removable side.",
+            "tags":[tagOpts[2][3],tagOpts[1][3],tagOpts[2][0],tagOpts[1][5]]},
+        "box, decorative":{"materials":[("composite",["fibers","synthetic","paper"]),("vegetal",["fibers","paper","wood"])],
+            "size":[sizeOpts[0]],
+            "purpose":"A storage tool usually comprised of 6 sides when closed. May open and close through the use of flaps or a removable side. Actual dimensions and contents are often hidden to create an entertainment device.",
+            "tags":[tagOpts[2][3],tagOpts[2][0],tagOpts[1][0],tagOpts[2][5]]}
 }
 #add labrynth ref if glass ball
 productObjects = {
@@ -131,7 +166,83 @@ productObjects = {
             "size":[sizeOpts[1]],
             "purpose":"A highly significant - but common - cultural disk used in commerce.",
             "tags":[tagOpts[1][1],tagOpts[2][0],tagOpts[1][3],tagOpts[0][0]]},
+        "blanket":{"materials":[("animal",["hair","hide","quill","shell","feather"]),("composite",["fibers","hide"]),("mineral",["synthetic"]),("vegetal",["fibers","paper","reeds","other"])],
+            "size":[sizeOpts[0]],
+            "purpose":"Cultural item usually used for warmth and decoration. Often found in locations set apart for resting.",
+            "tags":[tagOpts[0][0],tagOpts[2][0],tagOpts[2][3],tagOpts[2][5]]},
+        "bow, decorative":{"materials":[("animal",["hide"]),("composite",["metal","fibers","synthetic"]),("mineral",["synthetic"]),("vegetal",["fibers","paper","reeds","wood"])],
+            "size":[sizeOpts[0]],
+            "purpose":"A decorative item formed by combining loops and knots. Often used to secure and seal storage containers",
+            "tags":[tagOpts[0][3],tagOpts[2][1],tagOpts[2][5],tagOpts[3][2]]},
+        "chest, tooth fairy":{"materials":[("composite",["synthetic","human remains","bone"])],
+                "size":[sizeOpts[1]],
+                "purpose":"A very small decorative storage device used to ceremonially store small bones shed by prepubecient humans during the growth stage.",
+                "tags":[tagOpts[2][0],tagOpts[2][3],tagOpts[1][3],tagOpts[1][5]]},
+        "chest":{"materials":[("vegetal",["wood"]),("composite",["metal","wood","fibers"])],
+                "size":[sizeOpts[0]],
+                "purpose":"A storage device popularized in the pre-flight era of humanity. Smaller versions were later adapted to be used for travel.",
+                "tags":[tagOpts[2][3],tagOpts[2][0],tagOpts[2][5],tagOpts[1][3]]},
+        "disk, compact (CD)":{"materials":[("mineral",["metal","synthetic"])],
+                "size":[sizeOpts[1]],
+                "purpose":"A round storage device for digital information. Often used for preserving music.",
+                "tags":[tagOpts[0][4],tagOpts[1][1],tagOpts[2][3],tagOpts[1][0]]},
+        "disk, floppy":{"materials":[("mineral",["synthetic","metal"])],
+                "size":[sizeOpts[1]],
+                "purpose":"A quadrilateral storage device for digital information. Originally used for storing executable code. Culturally used as a save icon.",
+                "tags":[tagOpts[0][4],tagOpts[1][3],tagOpts[2][3],tagOpts[3][4]]},
+        "cassette, video":{"materials":[("mineral",["synthetic","metal"])],
+                "size":[sizeOpts[1]],
+                "purpose":"A quadrilateral storage device for digital information. Often used for recording visual information.",
+                "tags":[tagOpts[0][4],tagOpts[1][3],tagOpts[2][3],tagOpts[2][0]]},
+        "cassette, compact":{"materials":[("mineral",["synthetic","metal"])],
+                "size":[sizeOpts[1]],
+                "purpose":"A quadrilateral storage device for digital information. Often used for recording audio information.",
+                "tags":[tagOpts[0][4],tagOpts[2][3],tagOpts[1][5],tagOpts[2][0]]}
 }
+counterItem = 0
+outPath = "assets/itemOpts.json"
+outPathCSV = "assets/itemOpts.csv"
+jsonPrep = {}
+for listObj in range(3):
+    objectType = None
+    if listObj == 0:
+        objectType = "Apparel"
+        listObj = apparelObjects
+    elif listObj == 1:
+        objectType = "Tool"
+        listObj = toolObjects
+    elif listObj == 2:
+        objectType = "Product"
+        listObj = productObjects
+    else:
+        print("Error accessing list")
+    for k, v in listObj.items():
+        # v["materials"]
+        # v["size"]
+        # v["purpose"]
+        # v["tags"]
+        v["objectType"] = objectType
+        v["modelLink"] = None
+        v["screenShotLink"] = None
+        v["relatedItems"] = []
+        jsonPrep[k] = v
+        counterItem += 1
+print(counterItem)
+
+with open(outPath,"w") as jsonFile:
+    json.dump(jsonPrep,jsonFile)
+with open(outPathCSV,"w") as csvFile:
+    writeObj = csv.writer(csvFile,dialect="excel")
+    header = ["itemName","materials","size","purpose","tags","objectType","modelLink","screenShotLink","relatedItems"]
+    header = ["itemName","itemContent","modelLink","screenShotLink"]
+    writeObj.writerow(header)
+    for k, v in jsonPrep.items():
+        ContentBlurb = f"PURPOSE: {v["purpose"]}\nSIZE(S): {v["size"]}\nTAGS: {v["tags"]}\nOBJECT TYPE: {v["objectType"]}\nRELATED ITEMS: {v["relatedItems"]}"
+        writeObj.writerow([k,ContentBlurb,v["modelLink"],v["screenShotLink"]])
+
+
+#whatever gets tagged "decorative box" is used on "boxes" in the main area for Christmas and game anniversary; 
+#whatever gets tagged "floppy disk" silouette replaces the save icon
 
 # "item":{"materials":[("",[""])],
 #             "size":[sizeOpts[]],
@@ -140,10 +251,8 @@ productObjects = {
 
 
 
-# Bottle # Bow # Box 
+# Bottle
 # Brush # Blank, Disk #Disk
-# Blanket 
-# Blouse 
 # Buckle # Building Material # Cord # Button 
 # Cane 
 # Cord/Bead 
@@ -152,7 +261,8 @@ productObjects = {
 # Chopper # Cleaver 
 # Club 
 # Colander  Container 
-# Comb Crystal ##Caltrops = d4/lego
+# Comb 
+# Crystal
 # Cup 
 # Cylinder 
 #  # Die # Dipper  Dish 
@@ -196,7 +306,6 @@ productObjects = {
 # Saucer # Scoop # Scraper  Shawl 
 # Shell 
 # Sherd Artifact (broken pottery or glass) 
-# Shirt 
 # Shovel Blade # Sinker 
 # Slab 
 # Sled Runner 
@@ -229,6 +338,8 @@ productObjects = {
 # "Yarn/Cord"
 # instruments
 
+
+#rival factions also in location looking for minerals / riches / quartz / food / burnable materials
 
 
 
